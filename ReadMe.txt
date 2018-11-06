@@ -1,5 +1,5 @@
 This is simple thread library which can create, delete, suspend, resume, run &sleep threads. It can also show the status of any thread.
-Threads can be created with or without function arguments. It simply stores the TCB value of the thread and run it. To run please follow the following commands:-(Note:- only tested on ubuntu).
+Threads  can be created with or without function arguments. It simply stores the TCB value of the thread and run it. To run please follow the following commands:-(Note:- only tested on ubuntu).
 1) gcc -c MyThread.c
 2) gcc -c Yourprogram.c
 3) gcc MyThread.o Yourprogram.o -o executable
